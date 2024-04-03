@@ -1,0 +1,206 @@
+:root {
+  --Color-foother-y-Titulo: gray;
+  --Color-Principal: #272b33;
+  --Color-Cuadros: #3c3e44;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+  background-color: var(--Color-Principal);
+  width: 1481px;
+}
+
+.encabezado img {
+  width: 35px;
+  height: 35px;
+}
+
+.encabezado a {
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: var(--Color-foother-y-Titulo);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: #a606af solid 0.5px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #c28b0b;
+}
+
+.texto:hover {
+  background-color: #da3baa;
+}
+
+.titulo {
+  color: var(--Color-foother-y-Titulo);
+  text-align: center;
+  font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 80px;
+  background-image: url(Imagenes/Fondo\ titulo.jpg);
+  color: rgb(165, 97, 188);
+  text-shadow: var(--Color-foother-y-Titulo) 7px 7px 7px;
+}
+
+.imagen_titulo {
+  background-image: url(Imagenes/Imagen\ titulo.png);
+  width: 100%;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen_izquierda {
+  background-image: url(Imagenes/Imagen\ izquierda.png);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen_derecha {
+  background-image: url(Imagenes/Imagen\ derecha.png);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen_titulo h1 {
+  background: transparent;
+}
+
+.fondo_titulo {
+  background-image: url(Imagenes/Fondo\ titulo.jpg);
+  background-position: center;
+  width: 1481px;
+}
+
+.cuerpo {
+  background-color: var(--Color-Principal);
+  width: 1481px;
+  height: 750px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cajasgeneral {
+  display: grid;
+  grid-template-columns: repeat(6, 225px);
+  justify-content: center;
+}
+
+.cajasgeneral img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px 0px 0px 10px;
+  margin-left: 25px;
+  margin-top: -24px
+}
+
+.cajasgeneral div {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background-color: var(--Color-Cuadros);
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+.cajasgeneral div:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.cajasgeneral a:hover {
+  color: #da3baa;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  font-size: 20.2px;
+}
+
+.cajasgeneral a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.cajasgeneral h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.cajasgeneral h1:hover {
+  color: #c28b0b;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.cajasgeneral a:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.cajasgeneral p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: var(--Color-foother-y-Titulo);
+}
+
+.abajo {
+  background-color: var(--Color-foother-y-Titulo);
+  height: 300px;
+  width: 1481px;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.abajo p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
